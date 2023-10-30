@@ -11,7 +11,7 @@ window.onload = async function(){
   initDraw();
   initEvent(can);
   window.onresize(); //after loading maps
-  setInterval(procAll, 0); //enter gameloop
+  setInterval(procAll, 1000/30); //enter gameloop
 }
 //suika -------------------
 var color=[
@@ -49,7 +49,6 @@ var procAll=function(){
     procDraw();
     isRequestedDraw = false;
   }
-  setInterval(procAll, 500); //enter gameloop
 }
 var initHtml=function(){
   //debug = document.getElementById('debug');
