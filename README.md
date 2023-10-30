@@ -1,2 +1,2 @@
-# n-dim-suika
+# ndsuika
 n dimensional suika-like game
